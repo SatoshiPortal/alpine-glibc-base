@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM alpine:3.11.0
 
 # Must be provided: x86_64, armhf or aarch64
 ARG ARCH
