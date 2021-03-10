@@ -46,7 +46,7 @@ aarch64_alpine="aarch64"
 #arch_docker=${aarch64_docker} ; arch_alpine=${aarch64_alpine}
 arch_docker=${x86_docker} ; arch_alpine=${x86_alpine}
 
-version="v3.11.0_2.29-0"
+version="v3.12.4_2.33-0"
 
 echo "arch_docker=$arch_docker, arch_alpine=$arch_alpine"
 
