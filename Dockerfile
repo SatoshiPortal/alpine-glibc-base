@@ -3,7 +3,7 @@ FROM alpine:3.12.4
 # Must be provided: x86_64, armhf or aarch64
 ARG ARCH=x86_64
 
-ENV GLIBC_VERSION 2.33-r0
+ENV GLIBC_VERSION 2.31-r0
 ENV GLIBC_FILE glibc-${GLIBC_VERSION}-${ARCH}.apk
 ENV GLIBC_BIN_FILE glibc-bin-${GLIBC_VERSION}-${ARCH}.apk
 
